@@ -1,6 +1,8 @@
 
+
 import UseEffect from './AllHooks/UseEffect'
 import UseMemo from './AllHooks/UseMemo'
+import UseRef from './AllHooks/UseRef'
 import UseState from './AllHooks/UseState'
 import './App.css'
 
@@ -13,6 +15,7 @@ function App() {
        <UseState/>
        <UseEffect/>
        <UseMemo/>
+       <UseRef/>
       </div>
     </>
   )
