@@ -1,5 +1,6 @@
 
 
+import Parent from './AllHooks/Parent'
 import UseEffect from './AllHooks/UseEffect'
 import UseMemo from './AllHooks/UseMemo'
 import UseRef from './AllHooks/UseRef'
@@ -16,6 +17,7 @@ function App() {
        <UseEffect/>
        <UseMemo/>
        <UseRef/>
+       <Parent/>
       </div>
     </>
   )

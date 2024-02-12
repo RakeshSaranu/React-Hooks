@@ -14,7 +14,10 @@ each time when the variable of useref changes */
 function UseRef() {
     const data=useRef("")
     const [num,setnum]=useState(0);
-    data.current.focus(); // Focus the input feild this is an example of intracting with dom directly
+    useEffect(()=>{
+      data.current.focus(); // Focus the input feild this is an example of intracting with dom directly
+    },[])
+    
     function submitHandler(event) {
         event.preventDefault();
         console.log(data.current.value);
