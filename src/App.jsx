@@ -3,6 +3,7 @@
 import Parent from './AllHooks/Parent'
 import UseEffect from './AllHooks/UseEffect'
 import UseMemo from './AllHooks/UseMemo'
+import UseReducer from './AllHooks/UseReducer'
 import UseRef from './AllHooks/UseRef'
 import UseState from './AllHooks/UseState'
 import './App.css'
@@ -17,7 +18,8 @@ function App() {
        <UseEffect/>
        <UseMemo/>
        <UseRef/>
-       <Parent/>
+       <Parent/> {/* UseContext */}
+       <UseReducer/>
       </div>
     </>
   )
