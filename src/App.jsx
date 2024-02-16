@@ -1,6 +1,7 @@
 
 
 import Parent from './AllHooks/Parent'
+import UseCallback from './AllHooks/UseCallback'
 import UseEffect from './AllHooks/UseEffect'
 import UseMemo from './AllHooks/UseMemo'
 import UseReducer from './AllHooks/UseReducer'
@@ -20,6 +21,7 @@ function App() {
        <UseRef/>
        <Parent/> {/* UseContext */}
        <UseReducer/>
+       <UseCallback/>
       </div>
     </>
   )

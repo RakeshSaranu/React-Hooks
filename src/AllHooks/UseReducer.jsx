@@ -76,7 +76,7 @@ const user={
     name,
     email
 };
-dispatch({type:"add", payload:user});
+dispatch({type:"add", payload:user}); // PAYLOAD IS THE USED TO PASS THE DATA WHICH SHOULD BE ADDED IN THE STATE.
     }
 
   return (
@@ -91,7 +91,7 @@ dispatch({type:"add", payload:user});
             setemail(e.target.value);
         }}></input>
 <br></br>
-        <button>ADD USER</button>
+        <button>ADD USER</button> 
         </form>
 
 <div>
