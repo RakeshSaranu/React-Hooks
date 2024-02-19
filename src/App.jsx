@@ -1,5 +1,6 @@
 
 
+import CustomHook from './AllHooks/CustomHook'
 import Parent from './AllHooks/Parent'
 import UseCallback from './AllHooks/UseCallback'
 import UseEffect from './AllHooks/UseEffect'
@@ -22,6 +23,7 @@ function App() {
        <Parent/> {/* UseContext */}
        <UseReducer/>
        <UseCallback/>
+       <CustomHook/>
       </div>
     </>
   )
