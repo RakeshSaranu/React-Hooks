@@ -8,6 +8,7 @@ import UseMemo from './AllHooks/UseMemo'
 import UseReducer from './AllHooks/UseReducer'
 import UseRef from './AllHooks/UseRef'
 import UseState from './AllHooks/UseState'
+import UseTransition from './AllHooks/UseTransition'
 import './App.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
        <UseReducer/>
        <UseCallback/>
        <CustomHook/>
+       <UseTransition/>
       </div>
     </>
   )
